@@ -1,0 +1,22 @@
+
+// preset form values if we receive a userdata object //
+- user = typeof(udata) != 'undefined' ? udata : { }
+- groups = typeof(groups) != 'undefined' ? groups : {}
+
+#account-form-container	
+	// store the userId on the client side in a hidden input field //
+	input(type='hidden', value= user._id, name='userId')#userId
+
+	h1	Groups
+	p#sub1.subheading These are people you hang out with 
+	hr
+	div#groupContent
+
+	div.input-append
+		input.span3#groupName(type="text",placeholder="Group Name", name='groupName')
+		button.btn-success.btn#addGroup
+			i.icon-plus.icon-white 
+			span Group
+
+
+include modals/form-errors

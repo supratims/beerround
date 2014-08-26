@@ -1,0 +1,15 @@
+
+// preset form values if we receive a userdata object //
+- user = typeof(udata) != 'undefined' ? udata : { }
+- groups = typeof(groups) != 'undefined' ? groups : {}
+
+#account-form-container	
+
+	h1	Who's Next
+	p#sub1.subheading Who buys the next round !
+	hr
+	div#homeContent(style='min-height:300px')
+	hr
+	div#allGroups
+		a.btn.btn-info(title='Manage Groups', href='/groups')#title Groups
+
