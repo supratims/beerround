@@ -1,17 +1,17 @@
 {
-	"name": "node-login",
-	"version": "1.3.2",
-	"description": "A template for quickly building login systems on top of Node.js & MongoDb",
+	"name": "beerround",
+	"version": "0.1",
+	"description": "Track whos next using Node.js & MongoDb",
 	"author": {
-		"name": "Stephen Braitsch",
-		"email": "stephen@braitsch.io"
+		"name": "Supratim Chowdhury",
+		"email": "supratims@gmail.com"
 	},
 	"website":{
-		"url": "node-login.braitsch.io"
+		"url": "supratims.com"
 	},
 	"repository": {
 		"type": "git",
-		"url": "git://github.com/braitsch/node-login.git"
+		"url": "https://supratims@bitbucket.org/supratims/beerround.git"
 	},
 	"private": true,
 	"dependencies": {
