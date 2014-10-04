@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #Beer Round
 
 ####A basic beer/drinks round tracking system built in Node.js with the following features :
@@ -54,5 +53,4 @@ This assumes you already have node.js & npm installed.
 This assumes you already have node.js & npm installed.
 
 
->>>>>>> 605a5c301a554b1d091ca8a9329a6f4946b80783
 Questions and suggestions for improvement are welcome.
