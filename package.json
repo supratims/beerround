@@ -1,6 +1,6 @@
 {
 	"name": "beerround",
-	"version": "0.1",
+	"version": "0.1.0",
 	"description": "Track whos next using Node.js & MongoDb",
 	"author": {
 		"name": "Supratim Chowdhury",
